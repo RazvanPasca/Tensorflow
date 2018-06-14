@@ -1,5 +1,7 @@
 from sklearn.datasets.samples_generator import make_blobs
 import numpy as np
+import matplotlib
+matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 from scipy import stats
 import seaborn as sns
