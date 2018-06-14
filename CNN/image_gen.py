@@ -12,9 +12,10 @@ def read_image(imagefile, dtype=np.float32):
 
 
 def save_image(image, imagefile, data_format='channel_last'):
-    image = np.asarray(image, dtype=np.uint8)
-    image = Image.fromarray(image)
-    image.save(imagefile)
+    if image is not None:
+        image = np.asarray(image, dtype=np.uint8)
+        image = Image.fromarray(image)
+        image.save(imagefile)
 
 
 def check_size(size):
@@ -50,13 +51,15 @@ def random_crop(image, crop_size):
 def horizontal_flip(image, rate=0.05):
     if np.random.rand() < rate:
         image = image[:, ::-1, :]
-    return image
+        return image
+    return None
 
 
 def vertical_flip(image, rate=0.05):
     if np.random.rand() < rate:
         image = image[::-1, :, :]
-    return image
+        return image
+    return None
 
 
 def crop_and_keep(image, scale_range, crop_size, rate=0.2):
@@ -64,7 +67,8 @@ def crop_and_keep(image, scale_range, crop_size, rate=0.2):
         scale_size = np.random.randint(*scale_range)
         image = imresize(image, (scale_size, scale_size))
         image = random_crop(image, crop_size)
-    return image
+        return image
+    return None
 
 
 def change_gamma(image, rate=0.2):
@@ -72,7 +76,7 @@ def change_gamma(image, rate=0.2):
         image_brighter = 255 * (image / 255) ** 0.5
         image_darker = 255 * (image / 255) ** 2
         return image_brighter, image_darker
-    return image, image
+    return None,None
 
 
 if __name__ == '__main__':
@@ -84,7 +88,8 @@ if __name__ == '__main__':
     for dirpath, dirs, files in os.walk(args.infile):
         for filename in files:
             fname = os.path.join(dirpath, filename)
-            inimg = read_image(args.infile)
+            inimg = read_image(fname)
+            print(fname)
             inimg = resize(inimg, 150)
 
             image_brighter, image_darker = change_gamma(inimg)
