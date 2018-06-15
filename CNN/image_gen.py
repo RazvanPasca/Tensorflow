@@ -48,14 +48,14 @@ def random_crop(image, crop_size):
     return image
 
 
-def horizontal_flip(image, rate=0.05):
+def horizontal_flip(image, rate=0.1):
     if np.random.rand() < rate:
         image = image[:, ::-1, :]
         return image
     return None
 
 
-def vertical_flip(image, rate=0.05):
+def vertical_flip(image, rate=0.15):
     if np.random.rand() < rate:
         image = image[::-1, :, :]
         return image
@@ -76,7 +76,7 @@ def change_gamma(image, rate=0.2):
         image_brighter = 255 * (image / 255) ** 0.5
         image_darker = 255 * (image / 255) ** 2
         return image_brighter, image_darker
-    return None,None
+    return None, None
 
 
 if __name__ == '__main__':
@@ -85,26 +85,27 @@ if __name__ == '__main__':
     parser.add_argument('--outdir', '-o', default='./images')
     args = parser.parse_args()
 
-    for dirpath, dirs, files in os.walk(args.infile):
-        for filename in files:
-            fname = os.path.join(dirpath, filename)
-            inimg = read_image(fname)
-            print(fname)
-            inimg = resize(inimg, 150)
-
-            image_brighter, image_darker = change_gamma(inimg)
-            save_image(
-                image_brighter,
-                os.path.join(dirpath, '{}_bright_gamma.jpg'.format(filename)))
-            save_image(
-                image_darker,
-                os.path.join(dirpath, '{}_dark_gamma.jpg'.format(filename)))
-            save_image(
-                horizontal_flip(inimg),
-                os.path.join(dirpath, '{}_h_flip.jpg'.format(filename)))
-            save_image(
-                vertical_flip(inimg),
-                os.path.join(dirpath, '{}_v_flip.jpg'.format(filename)))
-            save_image(
-                crop_and_keep(inimg, (256, 480), 130),
-                os.path.join(dirpath, '{}_cropped.jpg'.format(filename)))
+    for _ in range(2):
+        for dirpath, dirs, files in os.walk(args.infile):
+            for filename in files:
+                fname = os.path.join(dirpath, filename)
+                inimg = read_image(fname)
+                print(fname)
+                inimg = resize(inimg, 100)
+                save_image(inimg,fname)
+                # image_brighter, image_darker = change_gamma(inimg)
+                # save_image(
+                #     image_brighter,
+                #     os.path.join(dirpath, '{}_bright_gamma.jpg'.format(filename)))
+                # save_image(
+                #     image_darker,
+                #     os.path.join(dirpath, '{}_dark_gamma.jpg'.format(filename)))
+                # save_image(
+                #     horizontal_flip(inimg),
+                #     os.path.join(dirpath, '{}_h_flip.jpg'.format(filename)))
+                # save_image(
+                #     vertical_flip(inimg),
+                #     os.path.join(dirpath, '{}_v_flip.jpg'.format(filename)))
+                # save_image(
+                #     crop_and_keep(resize(inimg,400), (256, 480), 150),
+                #     os.path.join(dirpath, '{}_cropped.jpg'.format(filename)))
