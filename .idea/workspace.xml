@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03ad420c-ec39-4053-adbf-2082a1817805" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Tensorflow-PythonProg/MyOwnTxtData/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Tensorflow-PythonProg/MyOwnTxtData/negative.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Tensorflow-PythonProg/MyOwnTxtData/positive.txt" />
+      <change beforePath="$PROJECT_DIR$/CNN/image_gen.py" afterPath="$PROJECT_DIR$/CNN/image_gen.py" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/.ipynb_checkpoints/00-TensorFlow-Basic-Syntax-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/.ipynb_checkpoints/01-TensorFlow-Graphs-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/.ipynb_checkpoints/02-Variables-and-Placeholders-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/.ipynb_checkpoints/03-TF-Neural-Network-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/.ipynb_checkpoints/04-TensorFlow-Regression-Example-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/.ipynb_checkpoints/05-TensorFlow-Classification-Example-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/.ipynb_checkpoints/06-Regression-Exercise-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/.ipynb_checkpoints/07-Regression-Exercise-Solutions-Final-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/.ipynb_checkpoints/08-Classification-Exercise-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/.ipynb_checkpoints/09-Classification-Exercise-Solution-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/.ipynb_checkpoints/10-Saving -and-Loading-Models-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/00-TensorFlow-Basic-Syntax.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/01-TensorFlow-Graphs.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/02-Variables-and-Placeholders.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/03-TF-Neural-Network.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/04-TensorFlow-Regression-Example.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/05-TensorFlow-Classification-Example.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/06-Regression-Exercise.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/07-Regression-Exercise-Solutions-Final.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/08-Classification-Exercise.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/09-Classification-Exercise-Solution.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/10-Saving -and-Loading-Models.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/cal_housing_clean.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/census_data.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/landata-states.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/models/checkpoint" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/models/my_first_model.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/models/my_first_model.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/models/my_first_model.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/models/my_first_model.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/models/my_first_model.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/models/my_first_model.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/new_models/checkpoint" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/new_models/my_second_model.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/new_models/my_second_model.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/new_models/my_second_model.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TFBasics/Indians-Diabetes/02-TensorFlow-Basics/pima-indians-diabetes.csv" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TensorFlow$logistic_regression.coverage" NAME="logistic regression Coverage Results" MODIFIED="1524568691096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Indians-Diabetes" />
+    <SUITE FILE_PATH="coverage/TensorFlow$fruits_CNN__1_.coverage" NAME="fruits_CNN (1) Coverage Results" MODIFIED="1529304402536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN" />
+    <SUITE FILE_PATH="coverage/TensorFlow$CNN_mnist.coverage" NAME="CNN mnist Coverage Results" MODIFIED="1524930916034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN" />
+    <SUITE FILE_PATH="coverage/TensorFlow$dcgan_2.coverage" NAME="dcgan_2 Coverage Results" MODIFIED="1527675533836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GANs" />
+    <SUITE FILE_PATH="coverage/TensorFlow$tfgraphs.coverage" NAME="tfgraphs Coverage Results" MODIFIED="1522599560989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TFBasics" />
+    <SUITE FILE_PATH="coverage/TensorFlow$rl_test.coverage" NAME="rl_test Coverage Results" MODIFIED="1526418135602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL" />
+    <SUITE FILE_PATH="coverage/TensorFlow$svm.coverage" NAME="svm Coverage Results" MODIFIED="1527530577230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
+    <SUITE FILE_PATH="coverage/TensorFlow$policy_gradient.coverage" NAME="policy_gradient Coverage Results" MODIFIED="1526419767221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL" />
+    <SUITE FILE_PATH="coverage/TensorFlow$fruits_CNN.coverage" NAME="fruits_CNN Coverage Results" MODIFIED="1529048408095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN" />
+    <SUITE FILE_PATH="coverage/TensorFlow$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1532535428869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow-PythonProg/Mnist" />
+    <SUITE FILE_PATH="coverage/TensorFlow$placeholders.coverage" NAME="placeholders Coverage Results" MODIFIED="1522599844498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TFBasics" />
+    <SUITE FILE_PATH="coverage/TensorFlow$RNNapi.coverage" NAME="RNNapi Coverage Results" MODIFIED="1526126320103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RNN" />
+    <SUITE FILE_PATH="coverage/TensorFlow$test.coverage" NAME="test Coverage Results" MODIFIED="1524560324917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project1" />
+    <SUITE FILE_PATH="coverage/TensorFlow$NN.coverage" NAME="NN Coverage Results" MODIFIED="1522598197912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project1" />
+    <SUITE FILE_PATH="coverage/TensorFlow$DCGAN.coverage" NAME="DCGAN Coverage Results" MODIFIED="1527850844658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GANs" />
+    <SUITE FILE_PATH="coverage/TensorFlow$estimator_api.coverage" NAME="estimator api Coverage Results" MODIFIED="1522669233293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TFBasics" />
+    <SUITE FILE_PATH="coverage/TensorFlow$tfsyntax.coverage" NAME="tfsyntax Coverage Results" MODIFIED="1522599229948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TFBasics" />
+    <SUITE FILE_PATH="coverage/TensorFlow$label.coverage" NAME="label Coverage Results" MODIFIED="1529006645542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN" />
+    <SUITE FILE_PATH="coverage/TensorFlow$read_images.coverage" NAME="read_images Coverage Results" MODIFIED="1527529419188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GANs" />
+    <SUITE FILE_PATH="coverage/TensorFlow$linearfit.coverage" NAME="linearfit Coverage Results" MODIFIED="1522603037130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TFBasics" />
+    <SUITE FILE_PATH="coverage/TensorFlow$image_gen.coverage" NAME="image_gen Coverage Results" MODIFIED="1529304126249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN" />
+    <SUITE FILE_PATH="coverage/TensorFlow$CNN_cifar.coverage" NAME="CNN cifar Coverage Results" MODIFIED="1524932281405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN" />
+    <SUITE FILE_PATH="coverage/TensorFlow$GAN.coverage" NAME="GAN Coverage Results" MODIFIED="1527853588602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GANs" />
+    <SUITE FILE_PATH="coverage/TensorFlow$basic_approach_MNIST.coverage" NAME="basic approach MNIST Coverage Results" MODIFIED="1524908356930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN/03-Convolutional-Neural-Networks" />
+    <SUITE FILE_PATH="coverage/TensorFlow$simpleRNN.coverage" NAME="simpleRNN Coverage Results" MODIFIED="1526120259179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RNN" />
+    <SUITE FILE_PATH="coverage/TensorFlow$model.coverage" NAME="model Coverage Results" MODIFIED="1524941238268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN/CIfar" />
+    <SUITE FILE_PATH="coverage/TensorFlow$test_model.coverage" NAME="test_model Coverage Results" MODIFIED="1526423869006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TensorFlow" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="fruits_CNN.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNN/fruits_CNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="177" column="10" lean-forward="false" selection-start-line="177" selection-start-column="10" selection-end-line="177" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="placeholders.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TFBasics/placeholders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linearfit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TFBasics/linearfit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="estimator api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TFBasics/estimator api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="95" column="33" lean-forward="false" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic approach MNIST.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNN/Mnist/basic approach MNIST.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNNmnist.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNN/Mnist/CNNmnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="105" column="31" lean-forward="false" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mnist.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tensorflow-PythonProg/Mnist/mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logistic regression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TFBasics/Indians-Diabetes/logistic regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-706">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>obs</find>
+      <find>output_real</find>
+      <find>28</find>
+      <find>rate=0.8</find>
+      <find>args.outd</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Project1/Operation.py" />
+        <option value="$PROJECT_DIR$/Project1/placeholder.py" />
+        <option value="$PROJECT_DIR$/Project1/graph.py" />
+        <option value="$PROJECT_DIR$/Project1/test.py" />
+        <option value="$PROJECT_DIR$/Project1/operation.py" />
+        <option value="$PROJECT_DIR$/Project1/session.py" />
+        <option value="$PROJECT_DIR$/Project1/NN.py" />
+        <option value="$PROJECT_DIR$/TFBasics/tfsyntax.py" />
+        <option value="$PROJECT_DIR$/TFBasics/tfgraphs.py" />
+        <option value="$PROJECT_DIR$/TFBasics/placeholders.py" />
+        <option value="$PROJECT_DIR$/TFBasics/linearfit.py" />
+        <option value="$PROJECT_DIR$/TFBasics/estimator api.py" />
+        <option value="$PROJECT_DIR$/TFBasics/logistic regression.py" />
+        <option value="$PROJECT_DIR$/Inidains-diabetes/logistic regression.py" />
+        <option value="$PROJECT_DIR$/Indians-Diabetes/logistic regression.py" />
+        <option value="$PROJECT_DIR$/CNN/03-Convolutional-Neural-Networks/basic approach MNIST.py" />
+        <option value="$PROJECT_DIR$/CNN/CNN mnist.py" />
+        <option value="$PROJECT_DIR$/CNN/CNN cifar.py" />
+        <option value="$PROJECT_DIR$/CNN/CIfar/CNN cifar.py" />
+        <option value="$PROJECT_DIR$/CNN/CIfar/cifar-10-batches-py/model.py" />
+        <option value="$PROJECT_DIR$/CNN/CNNmnist.py" />
+        <option value="$PROJECT_DIR$/CNN/CIfar/cifarhelper.py" />
+        <option value="$PROJECT_DIR$/CNN/CIfar/model.py" />
+        <option value="$PROJECT_DIR$/TFBasics/Indians-Diabetes/logistic regression.py" />
+        <option value="$PROJECT_DIR$/RNN/simpleRNN.py" />
+        <option value="$PROJECT_DIR$/RNN/modelLoader.py" />
+        <option value="$PROJECT_DIR$/RNN/RNNapi.py" />
+        <option value="$PROJECT_DIR$/RNN/newSeqGeneration.py" />
+        <option value="$PROJECT_DIR$/RL/rl_test.py" />
+        <option value="$PROJECT_DIR$/RL/policy.gradient.py" />
+        <option value="$PROJECT_DIR$/RL/policy_gradient.py" />
+        <option value="$PROJECT_DIR$/RL/test_model.py" />
+        <option value="$PROJECT_DIR$/GANs/model/VanillaGAN.py" />
+        <option value="$PROJECT_DIR$/GANs/VanillaGAN.py" />
+        <option value="$PROJECT_DIR$/GANs/read_images.py" />
+        <option value="$PROJECT_DIR$/SVM/svm.py" />
+        <option value="$PROJECT_DIR$/GANs/dcgan.py" />
+        <option value="$PROJECT_DIR$/GANs/cifar10.py" />
+        <option value="$PROJECT_DIR$/GANs/dcgan_2.py" />
+        <option value="$PROJECT_DIR$/GANs/DCGAN.py" />
+        <option value="$PROJECT_DIR$/GANs/GAN.py" />
+        <option value="$PROJECT_DIR$/GANs/image_gen.py" />
+        <option value="$PROJECT_DIR$/CNN/label.py" />
+        <option value="$PROJECT_DIR$/CNN/mlimages/label.py" />
+        <option value="$PROJECT_DIR$/CNN/Mnist/CNNmnist.py" />
+        <option value="$PROJECT_DIR$/CNN/image_gen.py" />
+        <option value="$PROJECT_DIR$/CNN/fruits_CNN.py" />
+        <option value="$PROJECT_DIR$/Tensorflow-PythonProg/MyOwnTxtData/negative.txt" />
+        <option value="$PROJECT_DIR$/Tensorflow-PythonProg/MyOwnTxtData/positive.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="y" value="24" />
+    <option name="width" value="960" />
+    <option name="height" value="993" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TensorFlow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
+              <item name="SVM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
+              <item name="Tensorflow-PythonProg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlow" type="462c0819:PsiDirectoryNode" />
+              <item name="Tensorflow-PythonProg" type="462c0819:PsiDirectoryNode" />
+              <item name="MyOwnTxtData" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CNN" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CNN/mlimages" />
+      <recent name="$PROJECT_DIR$/GANs" />
+      <recent name="$PROJECT_DIR$/TFBasics" />
+      <recent name="$PROJECT_DIR$/CNN/Mnist" />
+      <recent name="$PROJECT_DIR$/CNN/CIfar" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.mnist">
+    <configuration name="fruits_CNN (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlow" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/fruits_CNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="fruits_CNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlow" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/create_records.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="image_gen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlow" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/image_gen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="label" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlow" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/mlimages/label.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow-PythonProg/Mnist" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlow" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow-PythonProg/Mnist/mnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.fruits_CNN" />
+      <item index="1" class="java.lang.String" itemvalue="Python.label" />
+      <item index="2" class="java.lang.String" itemvalue="Python.fruits_CNN (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.image_gen" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mnist" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.mnist" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fruits_CNN (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.image_gen" />
+        <item index="3" class="java.lang.String" itemvalue="Python.fruits_CNN" />
+        <item index="4" class="java.lang.String" itemvalue="Python.label" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03ad420c-ec39-4053-adbf-2082a1817805" name="Default" comment="" />
+      <created>1520481031914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520481031914</updated>
+    </task>
+    <task id="LOCAL-00001" summary="modified image generation script">
+      <created>1529000900532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529000900532</updated>
+    </task>
+    <task id="LOCAL-00002" summary="modified image generation script">
+      <created>1529001708252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529001708252</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modified image generation script">
+      <created>1529061171600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529061171600</updated>
+    </task>
+    <task id="LOCAL-00004" summary="full pipeline made">
+      <created>1529071039835</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529071039835</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="960" y="24" width="960" height="993" extended-state="4" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30882353" sideWeight="0.33591482" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.00625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="413" height="884" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27733934" sideWeight="0.6640852" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.49811321" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36145833" sideWeight="0.49483013" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0010416667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989071" sideWeight="0.49380055" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12884097" sideWeight="0.50516987" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modified image generation script" />
+    <MESSAGE value="full pipeline made" />
+    <option name="LAST_COMMIT_MESSAGE" value="full pipeline made" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="30" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TFBasics/tfsyntax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFBasics/tfgraphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/simpleRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1087636198/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="1980" column="4" lean-forward="false" selection-start-line="1980" selection-start-column="4" selection-end-line="1980" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/RNNapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="78" column="84" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="208" column="4" lean-forward="false" selection-start-line="208" selection-start-column="4" selection-end-line="208" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="2261" column="4" lean-forward="false" selection-start-line="2261" selection-start-column="4" selection-end-line="2261" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/gen_math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="2511" column="4" lean-forward="false" selection-start-line="2511" selection-start-column="4" selection-end-line="2511" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/summary/writer/writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="98" column="6" lean-forward="false" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="5921" column="6" lean-forward="false" selection-start-line="5921" selection-start-column="6" selection-end-line="5921" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Banana/6_100.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Banana/6_100.jpg_bright_gamma.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Banana/9_100.jpg_dark_gamma.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Banana/40_100.jpg_dark_gamma.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Banana/49_100.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Banana/45_100.jpg_bright_gamma.jpg_dark_gamma.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Banana/43_100.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Banana/0_100.jpg_v_flip.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Apple/0_100.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Apple/26_100.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Apple/101_100.jpg_bright_gamma.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Apple/123_100.jpg_bright_gamma.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Apple/123_100.jpg_cropped.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Apple/127_100.jpg_cropped.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Apple/130_100.jpg_v_flip.jpg" />
+    <entry file="file://$PROJECT_DIR$/CNN/fruits/Apple/130_100.jpg" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="491" column="0" lean-forward="false" selection-start-line="491" selection-start-column="0" selection-end-line="491" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tensorflow/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="1667" column="0" lean-forward="false" selection-start-line="1667" selection-start-column="0" selection-end-line="1667" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/lena/lena.jpeg_bright_gamma.jpg_cropped.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/lena/lena.jpeg_bright_gamma.jpg_v_flip.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/lena/lena.jpeg_bright_gamma.jpg_low_C.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/lena/lena.jpeg_bright_gamma.jpg_high_C.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/lena/lena.jpeg_bright_gamma.jpg_h_flip.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/lena/lena.jpeg_bright_gamma.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/image_gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="99" column="48" lean-forward="false" selection-start-line="99" selection-start-column="48" selection-end-line="99" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/banana.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/original.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/banana_apple.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/original.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project1/NN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFBasics/placeholders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFBasics/linearfit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFBasics/estimator api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="95" column="33" lean-forward="false" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/Mnist/basic approach MNIST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/Mnist/CNNmnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="105" column="31" lean-forward="false" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/fruits_CNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="177" column="10" lean-forward="false" selection-start-line="177" selection-start-column="10" selection-end-line="177" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow-PythonProg/Mnist/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow-PythonProg/MyOwnTxtData/negative.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="5317" column="49" lean-forward="false" selection-start-line="5317" selection-start-column="49" selection-end-line="5317" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow-PythonProg/MyOwnTxtData/positive.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="5331" column="0" lean-forward="true" selection-start-line="5331" selection-start-column="0" selection-end-line="5331" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFBasics/Indians-Diabetes/logistic regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-706">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

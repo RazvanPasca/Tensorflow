@@ -1,0 +1,2 @@
+model_checkpoint_path: "200_epoch_model_DCGAN.ckpt"
+all_model_checkpoint_paths: "200_epoch_model_DCGAN.ckpt"
